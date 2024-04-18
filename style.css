@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 87, 107);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #918282;
+    border: 1px solid #aaa;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.cell:hover{
+    background-color: rgba(162, 188, 212, 0.877);
+    color: white;
+   
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.board {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+}
+
+button {
+    margin-left: 47%;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
